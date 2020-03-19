@@ -9,6 +9,9 @@ import "./App.css";
 import "./Sidebar.css";
 import "./Main.css";
 
+import DevItem from './components/DevItem';
+import DevForm from './components/DevForm';
+
 function App() {
   const [devs, setDevs] = useState([]);
 
